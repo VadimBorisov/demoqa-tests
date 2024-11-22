@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1be16ad3-9194-4542-b7eb-95b7f53549ea" name="Changes" comment="added GitHubSelenideTests.java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/GitHubSolutionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,7 +54,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.FormsTests.successfulFormTest">
+  <component name="RunManager" selected="Gradle.GitHubSolutionsTest.shouldOpenEnterprisePage">
     <configuration name="FormsTests.successfulFormTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,8 +147,32 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GitHubSolutionsTest.shouldOpenEnterprisePage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;github.GitHubSolutionsTest.shouldOpenEnterprisePage&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GitHubSolutionsTest.shouldOpenEnterprisePage" />
         <item itemvalue="Gradle.FormsTests.successfulFormTest" />
         <item itemvalue="Gradle.GitHubSelenideTests.shouldHaveSoftAssertionsPageOnWiki" />
         <item itemvalue="Gradle.GitHubSelenideTests" />
@@ -166,7 +192,7 @@
       <workItem from="1732112739420" duration="41000" />
       <workItem from="1732115982061" duration="2247000" />
       <workItem from="1732204184461" duration="89000" />
-      <workItem from="1732256599240" duration="579000" />
+      <workItem from="1732256599240" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="created application">
       <created>1732088703578</created>
@@ -189,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732118154654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added GitHubSelenideTests.java">
+      <created>1732257262193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732257262193</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
